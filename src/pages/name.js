@@ -1,16 +1,43 @@
 import React, { Component } from 'react';
 import { Panel, Row, Grid, PanelGroup } from 'react-bootstrap';
 import data from './data.json';
+import'./page.css';
 
-
+function searchingFor(search){
+  return function(x){
+    return x.name.toLowerCase().includes(search.toLowerCase()) || !search;
+  }
+}
 
 class Name extends Component {
+  constructor(){
+    super();
+    this.state = {
+      search: '',
+      data: data,
+    };
+
+    this.updateSearch = this.updateSearch.bind(this);
+  }
+
+  updateSearch(event){
+    this.setState({search: event.target.value});
+  }
+
   render() {
+    const {search, data} = this.state;
     return (
       <div>
+      <input type="text"
+        value = {search}
+        onChange = {this.updateSearch}
+        className="searchbar"
+        placeholder="Search"/>
+
+        <p></p>
         <PanelGroup accordian>
             {
-              data.map(function(data){
+              data.filter(searchingFor(search)).map(function(data){
                 return (
                   <Panel>
                       <Panel.Heading>

@@ -2,9 +2,18 @@
   text-align: center;
   color: rgb(255, 255, 255) !important;
   background-color : rgb(141, 39, 59) !important ;
+  font-family: 'Arvo', regular;
 }
 
+.main_buttons:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 .search_buttons{
   background-color: crimson;
+}
+
+.main_button_group{
+  position: fixed;
+  top: 15px;
 }

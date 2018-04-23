@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
+import List from './list.js';
+
 
 class YOG extends Component {
+
   render() {
     return (
       <div>
       <Tabs>
         <Tab eventKey={1} title="1991">
-          Tab 1 content
+          <List search='1991' />
         </Tab>
         <Tab eventKey={2} title="1992">
           Tab 2 content
