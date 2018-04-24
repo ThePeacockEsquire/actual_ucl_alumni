@@ -4,10 +4,18 @@ import { Panel, Row, Grid, PanelGroup } from 'react-bootstrap';
 function searchingFor(props){
     return function(x){
       if(props.button === 'yog'){
-          return console.log(x.graduationDate); 
+          return console.log(x.graduationDate);
           //x.graduationDate.includes(props.search) || !props;
-      } else if(props.button === 'troupe') {
-          return x.troupe.toLowerCase().includes(props.search.toLowerCase()) || !props;
+      } else if(props.button === 'Mission') {
+          return x.troupe.toLowerCase().includes(props.button.toLowerCase()) || !props;
+      } else if(props.button === 'Toast') {
+          return x.troupe.toLowerCase().includes(props.button.toLowerCase()) || !props;
+      } else if(props.button === 'Sketch 22') {
+          return x.troupe.toLowerCase().includes("sketch") || !props;
+      } else if(props.button === 'IWA') {
+          return x.troupe.toLowerCase().includes(props.button.toLowerCase()) || !props;
+      } else if(props.button === 'OG') {
+          return x.troupe.toLowerCase().includes(props.button.toLowerCase()) || !props;
       } else {
           return x.name.toLowerCase().includes(props.search.toLowerCase()) || !props;
       }

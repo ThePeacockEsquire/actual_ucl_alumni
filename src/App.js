@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button, ButtonGroup, Row, Col, PanelGroup } from 'react-bootstrap';
+import { Grid, Jumbotron, Button, ButtonGroup, DropdownButton, MenuItem, Row, Col, PanelGroup } from 'react-bootstrap';
 import './App.css';
 import alumniData from './data.json';
 import'./pages/page.css';
@@ -32,6 +32,7 @@ class App extends Component {
     this.handleSelect = this.handleSelect.bind(this);
     this.updateSearch = this.updateSearch.bind(this);
     this.updateTerm = this.updateTerm.bind(this);
+    this.updateButton = this.updateButton.bind(this);
     }
 
   handleSelect(activeKey) {
@@ -46,11 +47,20 @@ class App extends Component {
     this.setState({
       button: event.target.value
     });
+    console.log(this.state.button);
+  }
+
+  updateButton(eventKey){
+    this.setState({
+      button: eventKey
+        });
+    console.log(this.state.button);
   }
 
   render() {
     const {
       search,
+      button,
      } = this.state;
     return (
               <div className="body">
@@ -67,21 +77,27 @@ class App extends Component {
                       value = {search}
                       onChange = {this.updateSearch}
                       className="searchbar"
-                      placeholder="Search"/>
+                      placeholder="Search by name or troupe"/>
 
                       <p></p>
 
-                    <ButtonGroup bsClass="btn-group main_button_group" >
-                        <Button bsClass="btn btn-default main_buttons" onClick={this.updateTerm} value='name'>Name</Button>
-                        <Button bsClass="btn btn-default main_buttons" onClick={this.updateTerm} value='yog'>Year of Graduation</Button>
-                        <Button bsClass="btn btn-default main_buttons" onClick={this.updateTerm} value='troupe'>Troupe</Button>
+                    <ButtonGroup >
+                        <Button  onClick={this.updateTerm} value='name'>Name</Button>
+                        <Button  onClick={this.updateTerm} value='yog'>Year of Graduation</Button>
+                        <DropdownButton title="Troupe">
+                          <MenuItem  onSelect={this.updateButton} eventKey='Mission'>Mission</MenuItem>
+                          <MenuItem  onSelect={this.updateButton} eventKey="Toast">Toast</MenuItem>
+                          <MenuItem  onSelect={this.updateButton} eventKey="Sketch 22">Sketch 22</MenuItem>
+                          <MenuItem  onSelect={this.updateButton} eventKey="IWA">IWA</MenuItem>
+                          <MenuItem  onSelect={this.updateButton} eventKey="OG">OG</MenuItem>
+                        </DropdownButton>
                     </ButtonGroup>
                   </Grid>
                 </Jumbotron>
                 <Grid>
                     <Row>
                       <Col xs={12} md={12}>
-                      <h3> Searching for: {search} </h3>
+                      <h3> Searching for: {(button === 'name') ? search : button}  </h3>
                       <PanelGroup
                       accordian="true"
                       id="main list"
