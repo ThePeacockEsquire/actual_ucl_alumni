@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thepeacockesquire.github.io/actual-ucl-alumni",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "get-sheet-done": "^0.1.4",
