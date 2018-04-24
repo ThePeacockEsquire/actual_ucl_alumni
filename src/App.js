@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button, ButtonGroup, Row, Col, Panel, PanelGroup } from 'react-bootstrap';
+import { Grid, Jumbotron, Button, ButtonGroup, Row, Col, PanelGroup } from 'react-bootstrap';
 import './App.css';
 import alumniData from './data.json';
 import'./pages/page.css';
-import Stringify from 'react-stringify';
+import List from './pages/list.js'
+//import Stringify from 'react-stringify';
 // import GetSheetDone from 'get-sheet-done';
 // var importedSheet;
 //
@@ -12,34 +13,11 @@ import Stringify from 'react-stringify';
 //   console.log(importedSheet)
 // ));
 
-import ReactGoogleSheetConnector from "react-google-sheet-connector";
-import { connectToSpreadsheet } from "react-google-sheet-connector";
+// import ReactGoogleSheetConnector from "react-google-sheet-connector";
+// import { connectToSpreadsheet } from "react-google-sheet-connector";
 
-<ReactGoogleSheetConnector apiKey={'AIzaSyDtW3GSTRW5rlIAGs0zJ5QQ8gCwfvkbbCc'}
-    spreadsheetId={'1FWZlRP9RLfHlLGfIDbAWmQLrPLDqSsD3t3K68R3FcVo'} />
-
-
-
-
-//import Name  from "./pages/name.js";
-//import YOG  from "./pages/yog.js";
-//import Troupe  from "./pages/troupe.js";
-//import TestApp from "./pages/test.js";
-//import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-
-function searchingFor(props){
-  return function(x){
-    if(props.button === 'yog'){
-        return console.log(x.graduationDate);
-
-        //x.graduationDate.includes(props.search) || !props;
-    } else if(props.button === 'troupe') {
-        return x.troupe.toLowerCase().includes(props.search.toLowerCase()) || !props;
-    } else {
-        return x.name.toLowerCase().includes(props.search.toLowerCase()) || !props;
-    }
-  }
-}
+// <ReactGoogleSheetConnector apiKey={'AIzaSyDtW3GSTRW5rlIAGs0zJ5QQ8gCwfvkbbCc'}
+//     spreadsheetId={'1FWZlRP9RLfHlLGfIDbAWmQLrPLDqSsD3t3K68R3FcVo'} />
 
 class App extends Component {
   constructor(){
@@ -73,9 +51,6 @@ class App extends Component {
   render() {
     const {
       search,
-      data = data => <Stringify value={data} />,
-      button
-
      } = this.state;
     return (
               <div className="body">
@@ -113,52 +88,7 @@ class App extends Component {
                       activeKey={this.state.activeKey}
                       onSelect={this.handleSelect}
                       >
-
-                          {
-                          Array.from(data).filter(searchingFor(this.state)).map(function(data, i){
-                              return (
-                                <Panel eventKey={i}>
-                                    <Panel.Heading>
-                                        <Panel.Title toggle>
-                                        {data.name}
-                                        </Panel.Title>
-                                    </Panel.Heading>
-                                    <Panel.Collapse>
-                                        <Panel.Body>
-                                            <Grid>
-                                                <Row>
-                                                    <h4><u>Class</u></h4>
-                                                    <p>{data.graduationDate}</p>
-                                                </Row>
-                                                <Row>
-                                                    <h4><u>Troupe</u></h4>
-                                                    <p>{data.troupe}</p>
-                                                </Row>
-                                                {(data.missionNameIfApplicable != null) &&
-                                                  <Row>
-                                                      <h4><u>Mission Name</u></h4>
-                                                      <p>{data.missionNameIfApplicable}</p>
-                                                  </Row>
-                                                 }
-                                                 {(data.whereAreTheyNow != null) &&
-                                                   <Row>
-                                                       <h4><u>Where are they now</u></h4>
-                                                       <p>{data.whereAreTheyNow}</p>
-                                                   </Row>
-                                                 }
-                                                {(data.additionalInformation != null) &&
-                                                  <Row>
-                                                      <h4><u>Additional Info</u></h4>
-                                                      <p>{data.additionalInformation}</p>
-                                                  </Row>
-                                                }
-                                                </Grid>
-                                        </Panel.Body>
-                                    </Panel.Collapse>
-                                </Panel>
-                              );
-                        })
-                        }
+                      <List data={this.state.data} search={this.state.search} button={this.state.button} state={this.state}/>
                       </PanelGroup>
                       </Col>
                   </Row>
