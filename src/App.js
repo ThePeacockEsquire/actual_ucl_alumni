@@ -4,6 +4,23 @@ import './App.css';
 import alumniData from './data.json';
 import'./pages/page.css';
 import Stringify from 'react-stringify';
+// import GetSheetDone from 'get-sheet-done';
+// var importedSheet;
+//
+// GetSheetDone.raw('1FWZlRP9RLfHlLGfIDbAWmQLrPLDqSsD3t3K68R3FcVo', 1).then(sheet => (
+//   importedSheet=sheet,
+//   console.log(importedSheet)
+// ));
+
+import ReactGoogleSheetConnector from "react-google-sheet-connector";
+import { connectToSpreadsheet } from "react-google-sheet-connector";
+
+<ReactGoogleSheetConnector apiKey={'AIzaSyDtW3GSTRW5rlIAGs0zJ5QQ8gCwfvkbbCc'}
+    spreadsheetId={'1FWZlRP9RLfHlLGfIDbAWmQLrPLDqSsD3t3K68R3FcVo'} />
+
+
+
+
 //import Name  from "./pages/name.js";
 //import YOG  from "./pages/yog.js";
 //import Troupe  from "./pages/troupe.js";
@@ -37,7 +54,7 @@ class App extends Component {
     this.handleSelect = this.handleSelect.bind(this);
     this.updateSearch = this.updateSearch.bind(this);
     this.updateTerm = this.updateTerm.bind(this);
-  }
+    }
 
   handleSelect(activeKey) {
    this.setState({ activeKey });
@@ -61,11 +78,10 @@ class App extends Component {
 
      } = this.state;
     return (
-              <div>
-                console.log(data)
+              <div className="body">
                 <Jumbotron className="welcome">
                   <Grid>
-                    <h1>Welcome to the UMass Comedy Leagues Alumni Database!</h1>
+                    <h1>UMass Comedy League Alumni Database</h1>
                     <p>
                       Here you can search through <i>almost</i> every alumni that has been through UCL and SVP
                        <li></li>
@@ -90,6 +106,7 @@ class App extends Component {
                 <Grid>
                     <Row>
                       <Col xs={12} md={12}>
+                      <h3> Searching for: {search} </h3>
                       <PanelGroup
                       accordian="true"
                       id="main list"
@@ -117,19 +134,25 @@ class App extends Component {
                                                     <h4><u>Troupe</u></h4>
                                                     <p>{data.troupe}</p>
                                                 </Row>
-                                                <Row>
-                                                    <h4><u>Mission Name</u></h4>
-                                                    <p>{data.missionNameIfApplicable}</p>
-                                                </Row>
-                                                <Row>
-                                                    <h4><u>Where are they now</u></h4>
-                                                    <p>{data.whereAreTheyNow}</p>
-                                                </Row>
-                                                <Row>
-                                                    <h4><u>Additional Info</u></h4>
-                                                    <p>{data.additionalInformation}</p>
-                                                </Row>
-                                            </Grid>
+                                                {(data.missionNameIfApplicable != null) &&
+                                                  <Row>
+                                                      <h4><u>Mission Name</u></h4>
+                                                      <p>{data.missionNameIfApplicable}</p>
+                                                  </Row>
+                                                 }
+                                                 {(data.whereAreTheyNow != null) &&
+                                                   <Row>
+                                                       <h4><u>Where are they now</u></h4>
+                                                       <p>{data.whereAreTheyNow}</p>
+                                                   </Row>
+                                                 }
+                                                {(data.additionalInformation != null) &&
+                                                  <Row>
+                                                      <h4><u>Additional Info</u></h4>
+                                                      <p>{data.additionalInformation}</p>
+                                                  </Row>
+                                                }
+                                                </Grid>
                                         </Panel.Body>
                                     </Panel.Collapse>
                                 </Panel>

@@ -1,7 +1,7 @@
 .welcome{
   text-align: center;
-  color: rgb(255, 255, 255) !important;
-  background-color : rgb(141, 39, 59) !important ;
+  color: black !important;
+  background-color : #56C2B3 !important ;
   font-family: 'Arvo', regular;
 }
 
@@ -16,4 +16,8 @@
 .main_button_group{
   position: fixed;
   top: 15px;
+}
+
+.body {
+  background-color: #FFC297 !important;
 }
