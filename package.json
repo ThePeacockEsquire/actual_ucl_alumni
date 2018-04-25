@@ -1,0 +1,33 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://thepeacockesquire.github.io/actual_ucl_alumni",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-node": "^1.0.0",
+    "get-sheet-done": "^0.1.4",
+    "gh-pages": "^1.1.0",
+    "google-spreadsheet-to-json": "^1.0.0",
+    "npm": "^5.8.0",
+    "react": "^16.3.1",
+    "react-bootstrap": "^0.32.1",
+    "react-devtools": "^3.2.1",
+    "react-dom": "^16.3.1",
+    "react-google-sheet-connector": "^1.0.1",
+    "react-router-dom": "^4.3.0-rc.2",
+    "react-scripts": "1.1.4",
+    "react-stringify": "^1.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
