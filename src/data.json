@@ -1,0 +1,1069 @@
+[
+    {
+        "name": "Aamir Khan",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "6-Packy"
+    },
+    {
+        "name": "Aaron Krebs",
+        "troupe": "Mission",
+        "graduationDate": 1996,
+        "whereAreTheyNow": "Los Angeles",
+        "additionalInformation": "runs Mi Productions and Mi Touring Co."
+    },
+    {
+        "name": "Abby Kopel",
+        "troupe": "Sketch",
+        "graduationDate": 2011
+    },
+    {
+        "name": "Adam Graeber",
+        "troupe": "Sketch/IWA",
+        "graduationDate": 2005,
+        "whereAreTheyNow": "Washington, DC",
+        "additionalInformation": "Producer of Sketch"
+    },
+    {
+        "name": "Adam Hyman",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Chilly"
+    },
+    {
+        "name": "Alec Grater",
+        "troupe": "Sketch",
+        "graduationDate": 2017
+    },
+    {
+        "name": "Alexander Hymowitz",
+        "troupe": "Toast",
+        "graduationDate": 2015,
+        "additionalInformation": "Transferred"
+    },
+    {
+        "name": "Allison Whitelaw",
+        "troupe": "Toast/Sketch",
+        "graduationDate": 2017,
+        "additionalInformation": "Director of Toast, Producer of Sketch, Co-creator of Indoor Recess"
+    },
+    {
+        "name": "Amilia St. John",
+        "troupe": "Sketch",
+        "graduationDate": 2015,
+        "additionalInformation": "transferred"
+    },
+    {
+        "name": "Amy Koske",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Supercutz"
+    },
+    {
+        "name": "Andrew Kilfoyle",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 2013,
+        "missionNameIfApplicable": "Rhino\n"
+    },
+    {
+        "name": "Andy Hobgood",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "D.D."
+    },
+    {
+        "name": "Angel Carpino",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Fluff"
+    },
+    {
+        "name": "Annika",
+        "troupe": "OG Toast\n",
+        "graduationDate": 2003,
+        "whereAreTheyNow": "Providence"
+    },
+    {
+        "name": "Arthur Hayden",
+        "troupe": "Mission",
+        "graduationDate": 2017,
+        "missionNameIfApplicable": "Varsity",
+        "additionalInformation": "Director of Mission"
+    },
+    {
+        "name": "Ben Richman",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 2015,
+        "missionNameIfApplicable": "Pogo"
+    },
+    {
+        "name": "Beth Cartier",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Spitfire/Kryptonite"
+    },
+    {
+        "name": "Blake Maloney",
+        "troupe": "Mission",
+        "missionNameIfApplicable": "Mad Bomber"
+    },
+    {
+        "name": "Blake Stelle",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "T-Cell"
+    },
+    {
+        "name": "Brad Potter",
+        "troupe": "Mission",
+        "additionalInformation": "Producer of SVP '93, member of MI"
+    },
+    {
+        "name": "Brendan Dodd\n",
+        "troupe": "Toast/Sketch\n",
+        "graduationDate": 2015
+    },
+    {
+        "name": "Brendan Ryan",
+        "troupe": "IWA/Sketch\n",
+        "graduationDate": 2011,
+        "whereAreTheyNow": "NYC Somewhere"
+    },
+    {
+        "name": "Brennan Clark",
+        "troupe": "Mission",
+        "graduationDate": 2005,
+        "missionNameIfApplicable": "Cardigan",
+        "whereAreTheyNow": "Boston",
+        "additionalInformation": "I went through the annoyance program & I managed the theater on weekends. Will do workshop"
+    },
+    {
+        "name": "Brian Goddard",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Brian Jewell",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 1994,
+        "additionalInformation": "founding member of MI, the FOPS (Parody/Sketch), Co-Director of MI '91-'94, formerly of Guilty Children, Renegade Duck, and Brian and Mal Show (Boston)"
+    },
+    {
+        "name": "Brianna Heffernan",
+        "troupe": "Mission",
+        "graduationDate": 2010,
+        "missionNameIfApplicable": "Broadway",
+        "whereAreTheyNow": "Methuen, MA"
+    },
+    {
+        "name": "Brooke Burton",
+        "troupe": "Mission",
+        "graduationDate": 1992,
+        "additionalInformation": "member of MI, formerly of Improv Boston "
+    },
+    {
+        "name": "Calla Cofield",
+        "troupe": "Mission/sketch",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Hawkeye"
+    },
+    {
+        "name": "Carley Mandell",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Titan"
+    },
+    {
+        "name": "Carmen Antohi",
+        "troupe": "Mission",
+        "graduationDate": 2016,
+        "missionNameIfApplicable": "Vogue"
+    },
+    {
+        "name": "Carrie Christner",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 1994,
+        "additionalInformation": "member of MI, the FOPS"
+    },
+    {
+        "name": "Catherine Cope Cavalier",
+        "troupe": "OG\n",
+        "graduationDate": 1991,
+        "additionalInformation": "creator of Improv Troupe (not yet named Mission Improvable)"
+    },
+    {
+        "name": "Celeste Blodgette",
+        "troupe": "Toast",
+        "graduationDate": 2017,
+        "additionalInformation": "left in 2016"
+    },
+    {
+        "name": "Chris Sullivan",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Shockwave"
+    },
+    {
+        "name": "Cole Orloff",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Gatsby"
+    },
+    {
+        "name": "Conor Shanahan",
+        "troupe": "Mission/Sketch",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Shotgun"
+    },
+    {
+        "name": "Conor Garrison",
+        "troupe": "Mission/IWA",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Scout"
+    },
+    {
+        "name": "Courtney Dunham",
+        "troupe": "Toast/Mission\n",
+        "graduationDate": 2015,
+        "missionNameIfApplicable": "Foxtrot"
+    },
+    {
+        "name": "Craig Selzer",
+        "troupe": "Mission",
+        "graduationDate": 1991,
+        "additionalInformation": "founding member of MI"
+    },
+    {
+        "name": "Dan Bloom",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Misty"
+    },
+    {
+        "name": "Dan Gruppi",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Fumbles"
+    },
+    {
+        "name": "Dan Rharig",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Dana Travis Rossi",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 1997,
+        "missionNameIfApplicable": "no nicknames",
+        "whereAreTheyNow": "Westport, CT",
+        "additionalInformation": "member of MI, the FOPS, only member left in fall 1994 and then picked it up full steam by 96"
+    },
+    {
+        "name": "Danielle Soto\n",
+        "troupe": "Sketch",
+        "graduationDate": 2006,
+        "whereAreTheyNow": "Los Angeles",
+        "additionalInformation": "directed sophomore year, produced junior year, doing standup in LA"
+    },
+    {
+        "name": "David Collamore",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Le Baron"
+    },
+    {
+        "name": "Derrick DeMaio",
+        "troupe": "Mission\n",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Hobie"
+    },
+    {
+        "name": "Dillon Prives",
+        "troupe": "Mission",
+        "graduationDate": 2015,
+        "missionNameIfApplicable": "Wishbone"
+    },
+    {
+        "name": "Elizabeth Ross",
+        "troupe": "OG",
+        "graduationDate": 1991
+    },
+    {
+        "name": "Emily Ullman",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Gidget"
+    },
+    {
+        "name": "Emma Symmonds",
+        "troupe": "Toast",
+        "graduationDate": 2017,
+        "additionalInformation": "Co-creator of Indoor Recess"
+    },
+    {
+        "name": "Emy Hardy",
+        "troupe": "Sketch",
+        "graduationDate": 2017
+    },
+    {
+        "name": "Erik Volkert",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Dr. Spooky"
+    },
+    {
+        "name": "Erin Mabee",
+        "troupe": "Mission",
+        "graduationDate": 2015,
+        "missionNameIfApplicable": "Seltzer"
+    },
+    {
+        "name": "Erin Wholley",
+        "troupe": "IWA",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Evan Boshi",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Rook"
+    },
+    {
+        "name": "Fabienne Boudreau",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 1993,
+        "additionalInformation": "member of MI, the FOPS"
+    },
+    {
+        "name": "Gabrielle Cook",
+        "troupe": "Sketch",
+        "graduationDate": 2015
+    },
+    {
+        "name": "Gail Bishop\n",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 2015,
+        "whereAreTheyNow": "Maynard, MA",
+        "additionalInformation": "member of MI, the FOPS, formerly of Naked Brunch (Boston) and ACME Improv Company"
+    },
+    {
+        "name": "Garrett Schlundt",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 2018,
+        "missionNameIfApplicable": "Slugger",
+        "additionalInformation": "left"
+    },
+    {
+        "name": "Gina Accorsi",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Grace Spelman\n",
+        "troupe": "Mission/Toast",
+        "graduationDate": 2013,
+        "missionNameIfApplicable": "Vinyl"
+    },
+    {
+        "name": "Greg Boczenowski (boz)\n",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Hannah Perlmutter",
+        "troupe": "Sketch",
+        "graduationDate": 2010
+    },
+    {
+        "name": "Hemang Kaul",
+        "troupe": "Mission",
+        "graduationDate": 2013,
+        "missionNameIfApplicable": "Merlin",
+        "additionalInformation": "transferred"
+    },
+    {
+        "name": "Isaac Himmelman",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 2012,
+        "missionNameIfApplicable": "Dodger"
+    },
+    {
+        "name": "Jack (Mac) Edgarly\n",
+        "troupe": "IWA",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Jackson Kapinos",
+        "troupe": "Mission",
+        "graduationDate": 2016,
+        "missionNameIfApplicable": "Windsor",
+        "additionalInformation": "Director of Mission"
+    },
+    {
+        "name": "Jake Goldman",
+        "troupe": "Sketch",
+        "graduationDate": 2010
+    },
+    {
+        "name": "Jake LaMalfa",
+        "troupe": "IWA/Toast\n",
+        "graduationDate": 2014,
+        "additionalInformation": "Director of IWA, Changed name of troupe to \"Toast!\""
+    },
+    {
+        "name": "James Crosby",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Twinkletoes"
+    },
+    {
+        "name": "James Zebooker",
+        "troupe": "IWA/Toast\n",
+        "graduationDate": 2014
+    },
+    {
+        "name": "Jason Reis",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Jason Shomer",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Jay Petrone",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 2006,
+        "missionNameIfApplicable": "Action",
+        "whereAreTheyNow": "Chicago (year Ireland for fall 2015)"
+    },
+    {
+        "name": "Jeff Durand",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Jeff Steele",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Ninja"
+    },
+    {
+        "name": "Jenn Kuhr Butterfoss",
+        "troupe": "Mission/Toast",
+        "graduationDate": 2003,
+        "missionNameIfApplicable": "Frogger",
+        "additionalInformation": "Took a year off to become a hippie and travel the world "
+    },
+    {
+        "name": "Jenny Stulck",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Headbutt"
+    },
+    {
+        "name": "Jeremiah Zarazua-Gradine",
+        "troupe": "Toast",
+        "graduationDate": 2014,
+        "additionalInformation": "Transferred"
+    },
+    {
+        "name": "Jessica/Jet Evelyth\n",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Jett"
+    },
+    {
+        "name": "Jim Botehlo",
+        "troupe": "Mission\n",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Pinky"
+    },
+    {
+        "name": "Jody Walls",
+        "troupe": "Toast/Mission",
+        "graduationDate": 2017,
+        "missionNameIfApplicable": "Rapture",
+        "additionalInformation": "Director of Mission, was in a Sketch 22 video once"
+    },
+    {
+        "name": "Joe Kelley",
+        "troupe": "Toast",
+        "graduationDate": 2017
+    },
+    {
+        "name": "John Bergin",
+        "troupe": "Toast",
+        "graduationDate": 2017,
+        "additionalInformation": "Producer of Toast, Chairperson of UCL"
+    },
+    {
+        "name": "John Forbes",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Johnny James",
+        "troupe": "Mission",
+        "graduationDate": 2014,
+        "missionNameIfApplicable": "Jiffy"
+    },
+    {
+        "name": "Jon Dick",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Alfalfa"
+    },
+    {
+        "name": "Josh Sprague",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Justin McClintock",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Duke"
+    },
+    {
+        "name": "Karen Freeberg (Frances)",
+        "troupe": "Sketch",
+        "graduationDate": 2011,
+        "whereAreTheyNow": "New York",
+        "additionalInformation": "She's a regular actress in NYC now"
+    },
+    {
+        "name": "Katie Durkin",
+        "troupe": "Sketch",
+        "graduationDate": 2017
+    },
+    {
+        "name": "Katie Henoch",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Breezy"
+    },
+    {
+        "name": "Kevin D'Ambrosio",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Teeth"
+    },
+    {
+        "name": "Kevin McClintock",
+        "troupe": "IWA/Sketch\n",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Kevin Nessman",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 1994,
+        "whereAreTheyNow": "Maynard, MA",
+        "additionalInformation": "President of SVP '94, founding member of MI, the FOPS, Director of Acme Improv Company, formerly of Go Children Slow (Cape Cod) and Guilty Children (Boston)"
+    },
+    {
+        "name": "Kieran Fitzgerald",
+        "troupe": "IWA/Sketch\n",
+        "graduationDate": 2013,
+        "whereAreTheyNow": "Chicago"
+    },
+    {
+        "name": "Kimberly Hines",
+        "troupe": "OG",
+        "graduationDate": 1991
+    },
+    {
+        "name": "Kyle Moore Anderson",
+        "troupe": "IWA",
+        "graduationDate": "Unknown",
+        "additionalInformation": "Kicked Out"
+    },
+    {
+        "name": "Laura Clark\n",
+        "troupe": "Sketch\n",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Liam McCarthy\n",
+        "troupe": "Sketch",
+        "graduationDate": 2010
+    },
+    {
+        "name": "Liam McGurk",
+        "troupe": "IWA/Toast\n",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Linda Carranza\n",
+        "troupe": "Mission",
+        "graduationDate": 1991,
+        "whereAreTheyNow": "Budapest",
+        "additionalInformation": "President of SVP 93', founding member of MI"
+    },
+    {
+        "name": "Lisa Risley Aquizap",
+        "troupe": "Mission",
+        "graduationDate": 1991,
+        "additionalInformation": "founding member of MI, originator of \"Mission: Improvable\" name"
+    },
+    {
+        "name": "Liz Caradonna",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "The Flash\n"
+    },
+    {
+        "name": "Lloyd Alquist",
+        "troupe": "Mission",
+        "graduationDate": 1996,
+        "whereAreTheyNow": "Los Angeles",
+        "additionalInformation": "Friends with Aaron Krebs"
+    },
+    {
+        "name": "Lori Haines",
+        "troupe": "OG",
+        "graduationDate": 1996
+    },
+    {
+        "name": "Luke maginski",
+        "troupe": "IWA\n",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Luke Meginsky",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Platinum/Crevice"
+    },
+    {
+        "name": "Maddie Maggio",
+        "troupe": "Sketch",
+        "graduationDate": 2010,
+        "additionalInformation": "Quit semester before farewell"
+    },
+    {
+        "name": "Maddy Maggio",
+        "troupe": "IWA\n",
+        "graduationDate": 2009,
+        "whereAreTheyNow": "NYC",
+        "additionalInformation": "svp chairperson"
+    },
+    {
+        "name": "Maisy Halloran",
+        "troupe": "Mission",
+        "graduationDate": 2017,
+        "missionNameIfApplicable": "Hopscotch",
+        "additionalInformation": "Producer of Mission"
+    },
+    {
+        "name": "Mallory Kassoy",
+        "troupe": "Toast",
+        "graduationDate": 2017
+    },
+    {
+        "name": "Mantas Dumcius",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Mr. Pinko"
+    },
+    {
+        "name": "Marc Isaac Boyd",
+        "troupe": "Sketch",
+        "graduationDate": 2010
+    },
+    {
+        "name": "Marcey Buchakjian",
+        "troupe": "Mission",
+        "graduationDate": 1992,
+        "additionalInformation": "member of MI "
+    },
+    {
+        "name": "Mark Fleming\n",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Mark Teffer",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "The Force\n"
+    },
+    {
+        "name": "Mark Teffer",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Matt \"Crisco\" Criscuolo",
+        "troupe": "Sketch",
+        "graduationDate": 2011
+    },
+    {
+        "name": "Matt Hicks",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Chucky"
+    },
+    {
+        "name": "Matt Lang",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Balkie"
+    },
+    {
+        "name": "Meghan Ryan",
+        "troupe": "Sketch",
+        "graduationDate": 2012
+    },
+    {
+        "name": "Michelle Sullivan",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Michelle Whitaker",
+        "troupe": "Mission\n",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Tornado"
+    },
+    {
+        "name": "Mike Burns",
+        "troupe": "Mission",
+        "graduationDate": 2011,
+        "missionNameIfApplicable": "Everlast",
+        "whereAreTheyNow": "Holliston, MA"
+    },
+    {
+        "name": "Mike Carr",
+        "troupe": "Mission",
+        "graduationDate": 2003,
+        "missionNameIfApplicable": "Waldo/Bulldog",
+        "whereAreTheyNow": "Orlando, FL",
+        "additionalInformation": "director 2001-2003, also in Casual Sketch and Toast!"
+    },
+    {
+        "name": "Minda Zupaniotis",
+        "troupe": "Mission",
+        "graduationDate": 1992,
+        "additionalInformation": "member of MI"
+    },
+    {
+        "name": "Molly Davis",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Unsinkable"
+    },
+    {
+        "name": "Natalie Baseman",
+        "troupe": "Mission/sketch",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Hollywood"
+    },
+    {
+        "name": "Natasha Nemergut",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Nate Crawford",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Ox"
+    },
+    {
+        "name": "Nick Hernon",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Quantum"
+    },
+    {
+        "name": "Nick Kvilhaug\n",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Nina Hazelton",
+        "troupe": "Sketch",
+        "graduationDate": 2013,
+        "additionalInformation": "Quit/kicked out"
+    },
+    {
+        "name": "Norm Laviolette",
+        "troupe": "Mission/Sketch",
+        "graduationDate": 1994,
+        "additionalInformation": "member of MI, the FOPS, Opened Improv Asylum in Boston"
+    },
+    {
+        "name": "Olivia Peterson",
+        "troupe": "Sketch",
+        "graduationDate": 2015,
+        "additionalInformation": "Director for Fall 2014 thru Spring 2015"
+    },
+    {
+        "name": "Paige Smith-Hogan",
+        "troupe": "Sketch",
+        "graduationDate": 2017
+    },
+    {
+        "name": "Pat Cavanaugh",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Bandit"
+    },
+    {
+        "name": "Pat Coakley",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Vaudeville",
+        "whereAreTheyNow": "\n"
+    },
+    {
+        "name": "Pat Parhiala",
+        "troupe": "Mission\n",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "The Emperor"
+    },
+    {
+        "name": "Paul (Last name unknown?)",
+        "troupe": "Mission",
+        "graduationDate": 1992,
+        "additionalInformation": "member of MI"
+    },
+    {
+        "name": "Peter Cadieux",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Chief Barry"
+    },
+    {
+        "name": "Peter Storey",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Phyllis Gordon",
+        "troupe": "Mission",
+        "graduationDate": 1991,
+        "additionalInformation": "founding member of MI"
+    },
+    {
+        "name": "Rachel Kador",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Rachel Von Ahn",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Forte"
+    },
+    {
+        "name": "Robin Macnamera",
+        "troupe": "Mission",
+        "graduationDate": 2013,
+        "missionNameIfApplicable": "Bambi",
+        "whereAreTheyNow": "Boston"
+    },
+    {
+        "name": "Ryan Harrington",
+        "troupe": "IWA/Sketch\n",
+        "graduationDate": 2007,
+        "whereAreTheyNow": "Manhattan",
+        "additionalInformation": "IWA for 4 years (producer for 3 years/ director for a semester) / Sketch 22 for my last year"
+    },
+    {
+        "name": "Ryan Keisling",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Ryan Marchant",
+        "troupe": "Sketch",
+        "graduationDate": 2011
+    },
+    {
+        "name": "Ryan Murphy",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Tripps"
+    },
+    {
+        "name": "Ryan Texiera",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "The Sheriff"
+    },
+    {
+        "name": "Sam \"Wheaties\" Warton",
+        "troupe": "Sketch",
+        "graduationDate": 2011,
+        "additionalInformation": "Kicked Out"
+    },
+    {
+        "name": "Samantha Smith",
+        "troupe": "Mission",
+        "graduationDate": 1994,
+        "whereAreTheyNow": "MD",
+        "additionalInformation": "Producer of SVP '94, founding member of MI, Co-Director of MI '91-'94"
+    },
+    {
+        "name": "Sarah Koske",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Turbo"
+    },
+    {
+        "name": "Scott Braidman",
+        "troupe": "Mission/Sketch/Toast",
+        "graduationDate": 2002,
+        "missionNameIfApplicable": "Bloodline",
+        "whereAreTheyNow": "Hadley, MA",
+        "additionalInformation": "Producer of Mission, Chairperson of SVP, created Sketch-22"
+    },
+    {
+        "name": "Sean Cote",
+        "troupe": "Sketch",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Sean Kelley",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Dungarees"
+    },
+    {
+        "name": "Sean Toland",
+        "troupe": "IWA\n",
+        "graduationDate": 2008,
+        "whereAreTheyNow": "Princeton, NJ"
+    },
+    {
+        "name": "Seth Happeney",
+        "troupe": "IWA/Sketch\n",
+        "graduationDate": "Unknown",
+        "additionalInformation": "quit sketch semester before farewell"
+    },
+    {
+        "name": "Shannon Connolly",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Diesel"
+    },
+    {
+        "name": "Shelley Ricci",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Sonal (Last name unknown?)",
+        "troupe": "Mission",
+        "graduationDate": 1992,
+        "additionalInformation": "member of MI"
+    },
+    {
+        "name": "Stephan Grunspar",
+        "troupe": "OG",
+        "graduationDate": 1991
+    },
+    {
+        "name": "Stephanie Jones",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Ghostface Kilah"
+    },
+    {
+        "name": "Stephanie Smith\n",
+        "troupe": "OG",
+        "graduationDate": 1991
+    },
+    {
+        "name": "Steve Hannum",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Amigo"
+    },
+    {
+        "name": "Sue Barrington",
+        "troupe": "Mission",
+        "graduationDate": 1991,
+        "additionalInformation": "founding member of MI"
+    },
+    {
+        "name": "Tarah Llewellyn",
+        "troupe": "Mission",
+        "graduationDate": 2009,
+        "missionNameIfApplicable": "Solar",
+        "whereAreTheyNow": "Charlestown, MA"
+    },
+    {
+        "name": "Thomas Marucha",
+        "troupe": "Toast",
+        "graduationDate": 2014,
+        "additionalInformation": "Transferred"
+    },
+    {
+        "name": "Tim Sacks",
+        "troupe": "IWA",
+        "graduationDate": 2010,
+        "whereAreTheyNow": "village of Hopewell Junction, NY.",
+        "additionalInformation": "Director of IWA"
+    },
+    {
+        "name": "Tom Barnes",
+        "troupe": "Sketch",
+        "graduationDate": 2012
+    },
+    {
+        "name": "Tom Naughton",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Croupe"
+    },
+    {
+        "name": "Tony Westcott",
+        "troupe": "IWA\n",
+        "graduationDate": 2012,
+        "whereAreTheyNow": "Chicago"
+    },
+    {
+        "name": "Tyler Wolff-Ormes",
+        "troupe": "Mission/sketch",
+        "graduationDate": 2006,
+        "missionNameIfApplicable": "Berzerker"
+    },
+    {
+        "name": "Valerie Lynch",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Ghetto"
+    },
+    {
+        "name": "Walker Kolby",
+        "troupe": "Unknown",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Whit Nelson",
+        "troupe": "Mission",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Spanky"
+    },
+    {
+        "name": "Zach Colten\n",
+        "troupe": "Sketch",
+        "graduationDate": 2014,
+        "additionalInformation": "transferred"
+    },
+    {
+        "name": "Zach Linder\n",
+        "troupe": "IWA",
+        "graduationDate": "Unknown"
+    },
+    {
+        "name": "Zack Dictakis",
+        "troupe": "Toast",
+        "graduationDate": 2014,
+        "additionalInformation": "Transferred"
+    }
+]
