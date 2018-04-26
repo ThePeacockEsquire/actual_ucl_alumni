@@ -51,7 +51,7 @@
         "name": "Amilia St. John",
         "troupe": "Sketch",
         "graduationDate": 2015,
-        "additionalInformation": "transferred"
+        "additionalInformation": "Transferred"
     },
     {
         "name": "Amy Koske",
@@ -64,6 +64,11 @@
         "troupe": "Mission/Sketch",
         "graduationDate": 2013,
         "missionNameIfApplicable": "Rhino\n"
+    },
+    {
+        "name": "Andy Devlin",
+        "troupe": "Sketch 22, IWA",
+        "graduationDate": 2010
     },
     {
         "name": "Andy Hobgood",
@@ -99,23 +104,23 @@
     {
         "name": "Beth Cartier",
         "troupe": "Mission",
-        "graduationDate": "Unknown",
         "missionNameIfApplicable": "Spitfire/Kryptonite"
     },
     {
         "name": "Blake Maloney",
         "troupe": "Mission",
+        "graduationDate": "Unknown",
         "missionNameIfApplicable": "Mad Bomber"
     },
     {
         "name": "Blake Stelle",
         "troupe": "Mission",
-        "graduationDate": "Unknown",
         "missionNameIfApplicable": "T-Cell"
     },
     {
         "name": "Brad Potter",
         "troupe": "Mission",
+        "graduationDate": 1993,
         "additionalInformation": "Producer of SVP '93, member of MI"
     },
     {
@@ -204,6 +209,12 @@
         "missionNameIfApplicable": "Shockwave"
     },
     {
+        "name": "Conor Garrison",
+        "troupe": "Mission/IWA",
+        "graduationDate": "Unknown",
+        "missionNameIfApplicable": "Scout"
+    },
+    {
         "name": "Cole Orloff",
         "troupe": "Mission",
         "graduationDate": "Unknown",
@@ -214,12 +225,6 @@
         "troupe": "Mission/Sketch",
         "graduationDate": "Unknown",
         "missionNameIfApplicable": "Shotgun"
-    },
-    {
-        "name": "Conor Garrison",
-        "troupe": "Mission/IWA",
-        "graduationDate": "Unknown",
-        "missionNameIfApplicable": "Scout"
     },
     {
         "name": "Courtney Dunham",
@@ -315,7 +320,8 @@
         "name": "Erin Mabee",
         "troupe": "Mission",
         "graduationDate": 2015,
-        "missionNameIfApplicable": "Seltzer"
+        "missionNameIfApplicable": "Seltzer",
+        "additionalInformation": "Performing member at ImprovBoston"
     },
     {
         "name": "Erin Wholley",
@@ -342,7 +348,7 @@
     {
         "name": "Gail Bishop\n",
         "troupe": "Mission/Sketch",
-        "graduationDate": 2015,
+        "graduationDate": 1994,
         "whereAreTheyNow": "Maynard, MA",
         "additionalInformation": "member of MI, the FOPS, formerly of Naked Brunch (Boston) and ACME Improv Company"
     },
@@ -351,7 +357,7 @@
         "troupe": "Mission/Sketch",
         "graduationDate": 2018,
         "missionNameIfApplicable": "Slugger",
-        "additionalInformation": "left"
+        "additionalInformation": "Left"
     },
     {
         "name": "Gina Accorsi",
@@ -377,9 +383,9 @@
     {
         "name": "Hemang Kaul",
         "troupe": "Mission",
-        "graduationDate": 2013,
+        "graduationDate": 2012,
         "missionNameIfApplicable": "Merlin",
-        "additionalInformation": "transferred"
+        "additionalInformation": "Transferred"
     },
     {
         "name": "Isaac Himmelman",
@@ -388,7 +394,7 @@
         "missionNameIfApplicable": "Dodger"
     },
     {
-        "name": "Jack (Mac) Edgarly\n",
+        "name": "Jack (Mac) Edgarly",
         "troupe": "IWA",
         "graduationDate": "Unknown"
     },
@@ -397,7 +403,7 @@
         "troupe": "Mission",
         "graduationDate": 2016,
         "missionNameIfApplicable": "Windsor",
-        "additionalInformation": "Director of Mission"
+        "additionalInformation": "Director of Mission, UCL Chairperson"
     },
     {
         "name": "Jake Goldman",
@@ -406,7 +412,7 @@
     },
     {
         "name": "Jake LaMalfa",
-        "troupe": "IWA/Toast\n",
+        "troupe": "IWA/Toast",
         "graduationDate": 2014,
         "additionalInformation": "Director of IWA, Changed name of troupe to \"Toast!\""
     },
@@ -418,7 +424,7 @@
     },
     {
         "name": "James Zebooker",
-        "troupe": "IWA/Toast\n",
+        "troupe": "IWA/Toast",
         "graduationDate": 2014
     },
     {
@@ -469,14 +475,14 @@
         "additionalInformation": "Transferred"
     },
     {
-        "name": "Jessica/Jet Evelyth\n",
+        "name": "Jessica Evelyth",
         "troupe": "Mission",
         "graduationDate": "Unknown",
-        "missionNameIfApplicable": "Jett"
+        "missionNameIfApplicable": "Jet"
     },
     {
         "name": "Jim Botehlo",
-        "troupe": "Mission\n",
+        "troupe": "Mission",
         "graduationDate": "Unknown",
         "missionNameIfApplicable": "Pinky"
     },
@@ -552,7 +558,7 @@
     },
     {
         "name": "Kevin McClintock",
-        "troupe": "IWA/Sketch\n",
+        "troupe": "IWA/Sketch",
         "graduationDate": "Unknown"
     },
     {
@@ -564,7 +570,7 @@
     },
     {
         "name": "Kieran Fitzgerald",
-        "troupe": "IWA/Sketch\n",
+        "troupe": "IWA/Sketch",
         "graduationDate": 2013,
         "whereAreTheyNow": "Chicago"
     },
@@ -577,11 +583,11 @@
         "name": "Kyle Moore Anderson",
         "troupe": "IWA",
         "graduationDate": "Unknown",
-        "additionalInformation": "Kicked Out"
+        "additionalInformation": "Left"
     },
     {
-        "name": "Laura Clark\n",
-        "troupe": "Sketch\n",
+        "name": "Laura Clark",
+        "troupe": "Sketch",
         "graduationDate": "Unknown"
     },
     {
@@ -618,7 +624,7 @@
         "troupe": "Mission",
         "graduationDate": 1996,
         "whereAreTheyNow": "Los Angeles",
-        "additionalInformation": "Friends with Aaron Krebs"
+        "additionalInformation": "Also known as EpicLLoyd, Friends with Aaron Krebs"
     },
     {
         "name": "Lori Haines",
@@ -626,15 +632,15 @@
         "graduationDate": 1996
     },
     {
-        "name": "Luke maginski",
-        "troupe": "IWA\n",
-        "graduationDate": "Unknown"
-    },
-    {
         "name": "Luke Meginsky",
-        "troupe": "Mission",
+        "troupe": "Mission, IWA",
         "graduationDate": "Unknown",
         "missionNameIfApplicable": "Platinum/Crevice"
+    },
+    {
+        "name": "Maari Suorsa",
+        "troupe": "Mission, IWA",
+        "graduationDate": 2009
     },
     {
         "name": "Maddie Maggio",
@@ -685,14 +691,9 @@
     },
     {
         "name": "Mark Teffer",
-        "troupe": "Mission",
+        "troupe": "Mission, Sketch",
         "graduationDate": "Unknown",
         "missionNameIfApplicable": "The Force\n"
-    },
-    {
-        "name": "Mark Teffer",
-        "troupe": "Sketch",
-        "graduationDate": "Unknown"
     },
     {
         "name": "Matt \"Crisco\" Criscuolo",
@@ -786,7 +787,7 @@
         "name": "Nina Hazelton",
         "troupe": "Sketch",
         "graduationDate": 2013,
-        "additionalInformation": "Quit/kicked out"
+        "additionalInformation": "Left"
     },
     {
         "name": "Norm Laviolette",
@@ -815,8 +816,7 @@
         "name": "Pat Coakley",
         "troupe": "Mission",
         "graduationDate": "Unknown",
-        "missionNameIfApplicable": "Vaudeville",
-        "whereAreTheyNow": "\n"
+        "missionNameIfApplicable": "Vaudeville"
     },
     {
         "name": "Pat Parhiala",
@@ -856,10 +856,11 @@
         "name": "Rachel Von Ahn",
         "troupe": "Mission",
         "graduationDate": "Unknown",
-        "missionNameIfApplicable": "Forte"
+        "missionNameIfApplicable": "Forte",
+        "additionalInformation": "Performing member at ImprovBoston"
     },
     {
-        "name": "Robin Macnamera",
+        "name": "Robin McNamera",
         "troupe": "Mission",
         "graduationDate": 2013,
         "missionNameIfApplicable": "Bambi",
@@ -898,7 +899,7 @@
         "name": "Sam \"Wheaties\" Warton",
         "troupe": "Sketch",
         "graduationDate": 2011,
-        "additionalInformation": "Kicked Out"
+        "additionalInformation": "Left"
     },
     {
         "name": "Samantha Smith",
@@ -934,7 +935,7 @@
     },
     {
         "name": "Sean Toland",
-        "troupe": "IWA\n",
+        "troupe": "Unknown",
         "graduationDate": 2008,
         "whereAreTheyNow": "Princeton, NJ"
     },
@@ -946,7 +947,7 @@
     },
     {
         "name": "Shannon Connolly",
-        "troupe": "Unknown",
+        "troupe": "Mission",
         "graduationDate": "Unknown",
         "missionNameIfApplicable": "Diesel"
     },
@@ -973,7 +974,7 @@
         "missionNameIfApplicable": "Ghostface Kilah"
     },
     {
-        "name": "Stephanie Smith\n",
+        "name": "Stephanie Smith",
         "troupe": "OG",
         "graduationDate": 1991
     },
@@ -1022,13 +1023,13 @@
     },
     {
         "name": "Tony Westcott",
-        "troupe": "IWA\n",
+        "troupe": "IWA",
         "graduationDate": 2012,
         "whereAreTheyNow": "Chicago"
     },
     {
         "name": "Tyler Wolff-Ormes",
-        "troupe": "Mission/sketch",
+        "troupe": "Mission/Sketch",
         "graduationDate": 2006,
         "missionNameIfApplicable": "Berzerker"
     },
@@ -1053,17 +1054,17 @@
         "name": "Zach Colten\n",
         "troupe": "Sketch",
         "graduationDate": 2014,
-        "additionalInformation": "transferred"
+        "additionalInformation": "Transferred"
     },
     {
         "name": "Zach Linder\n",
         "troupe": "IWA",
-        "graduationDate": "Unknown"
+        "graduationDate": "IWA"
     },
     {
         "name": "Zack Dictakis",
         "troupe": "Toast",
-        "graduationDate": 2014,
+        "graduationDate": "Toast",
         "additionalInformation": "Transferred"
     }
 ]

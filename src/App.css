@@ -10,10 +10,11 @@
 }
 
 .main_button_group{
-  position: relative;
+  position:absolute;
   display: inline-block;
   vertical-align: middle;
   top: 15px;
+  /* left: 50px; */
 }
 
 .body {
@@ -22,4 +23,19 @@
 
 .help{
   text-align: right;
+}
+
+.info{
+    top: 15px;
+  position:relative;
+
+}
+
+.modal_center{
+  text-align: center;
+}
+
+.glyphicon.glyphicon-info-sign {
+    color: white;
+    font-size: 35px;
 }
