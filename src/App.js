@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button, ButtonGroup, DropdownButton, MenuItem, Row, Col, PanelGroup } from 'react-bootstrap';
+import { Grid, Jumbotron, Button, ButtonGroup, DropdownButton, MenuItem, Row, Col, PanelGroup, Glyphicon } from 'react-bootstrap';
 import './App.css';
 import alumniData from './data.json';
 import'./pages/page.css';
@@ -81,7 +81,7 @@ class App extends Component {
 
                       <p></p>
 
-                    <ButtonGroup >
+                    <ButtonGroup bsClass="main_button_group" >
                         <Button  onClick={this.updateTerm} value='name'>Name</Button>
                         <Button  onClick={this.updateTerm} value='yog' disabled>Year of Graduation</Button>
                         <DropdownButton title="Troupe">
@@ -96,19 +96,31 @@ class App extends Component {
                 </Jumbotron>
                 <Grid>
                     <Row>
+
                       <Col xs={12} md={12}>
-                      <h3> Searching for: {(button === 'name') ? search : button}  </h3>
-                      <PanelGroup
-                      accordian="true"
-                      id="main list"
-                      onSelect={this.handleSelect}
-                      >
-                      <List data={this.state.data} search={this.state.search} button={this.state.button} state={this.state}/>
-                      </PanelGroup>
-                      </Col>
-                  </Row>
-                </Grid>
-              </div>
+                        <Row>
+                          <Col xs={5} md={8}>
+                            <h3> Searching for: {(button === 'name') ? search : button} </h3>
+                          </Col>
+                          <Col xs={7} md={4}>
+                            <p className="help">See anything that's not here or any wrong information? Let me know here<Button bsStyle="link" href="https://goo.gl/forms/UaTCL0jm1VaqQgmV2"><Glyphicon glyph="envelope" /></Button></p>
+                          </Col>
+                        </Row>
+
+
+
+                        <PanelGroup
+                          accordian="true"
+                          id="main list"
+                          activeKey={0}
+                          onSelect={this.handleSelect}
+                          >
+                          <List data={this.state.data} search={this.state.search} button={this.state.button} state={this.state}/>
+                        </PanelGroup>
+                        </Col>
+                    </Row>
+                  </Grid>
+                </div>
     );
   }
 }

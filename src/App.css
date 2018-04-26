@@ -10,10 +10,16 @@
 }
 
 .main_button_group{
-  position: fixed;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
   top: 15px;
 }
 
 .body {
   background-color: #FFC297 !important;
+}
+
+.help{
+  text-align: right;
 }

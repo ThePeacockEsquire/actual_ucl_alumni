@@ -25,18 +25,17 @@ function searchingFor(props){
 class List extends Component {
   render() {
        return (
-      <PanelGroup accordian>
+         <PanelGroup>
           {
             Array.from(this.props.data).filter(searchingFor(this.props.state)).map(function(data, i){
                 return (
-                <Panel eventKey={i}>
+                <Panel eventKey={i} >
                     <Panel.Heading>
                         <Panel.Title toggle>
                         {data.name}
                         </Panel.Title>
                     </Panel.Heading>
-                    <Panel.Collapse>
-                        <Panel.Body>
+                        <Panel.Body collapsible>
                             <Grid>
                                 <Row>
                                     <h4><u>Class</u></h4>
@@ -66,12 +65,11 @@ class List extends Component {
                                 }
                                 </Grid>
                         </Panel.Body>
-                    </Panel.Collapse>
                 </Panel>
                 );
         })
         }
-      </PanelGroup>
+        </PanelGroup>
     );
   }
 }

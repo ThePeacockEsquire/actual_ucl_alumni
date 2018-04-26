@@ -384,7 +384,7 @@
     {
         "name": "Isaac Himmelman",
         "troupe": "Mission/Sketch",
-        "graduationDate": 2017,
+        "graduationDate": 2012,
         "missionNameIfApplicable": "Dodger"
     },
     {
@@ -450,10 +450,11 @@
         "missionNameIfApplicable": "Ninja"
     },
     {
-        "name": "Jenn Kuhr",
-        "troupe": "Mission",
-        "graduationDate": "Unknown",
-        "missionNameIfApplicable": "Frogger"
+        "name": "Jenn Kuhr Butterfoss",
+        "troupe": "Mission/Toast",
+        "graduationDate": 2003,
+        "missionNameIfApplicable": "Frogger",
+        "additionalInformation": "Took a year off to become a hippie and travel the world "
     },
     {
         "name": "Jenny Stulck",
@@ -484,7 +485,7 @@
         "troupe": "Toast/Mission",
         "graduationDate": 2017,
         "missionNameIfApplicable": "Rapture",
-        "additionalInformation": "Director of Mission"
+        "additionalInformation": "Director of Mission, was in a Sketch 22 video once"
     },
     {
         "name": "Joe Kelley",
@@ -505,7 +506,7 @@
     {
         "name": "Johnny James",
         "troupe": "Mission",
-        "graduationDate": 2010,
+        "graduationDate": 2014,
         "missionNameIfApplicable": "Jiffy"
     },
     {
@@ -814,7 +815,7 @@
         "name": "Pat Coakley",
         "troupe": "Mission",
         "graduationDate": "Unknown",
-        "missionNameIfApplicable": "Vaudville",
+        "missionNameIfApplicable": "Vaudeville",
         "whereAreTheyNow": "\n"
     },
     {
