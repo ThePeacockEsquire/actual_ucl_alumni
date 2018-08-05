@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: cornflowerblue !important;
+  background-color: #FFC297 !important;
 }
 
 .help{
@@ -10,8 +10,9 @@ body {
 }
 
 .info{
-    top: 15px;
+
   position:relative;
+  height: 5%;
 
 }
 
@@ -22,16 +23,15 @@ body {
 
 }
 
-.icon{
-  size: 200%;
-}
 
 .modal_center{
   text-align: center;
 }
 
 .here_1{
-  height: 5px;
+  height: 5%;
+  position: relative;
+  flex-wrap: wrap;
 }
 
 .glyphicon.glyphicon-info-sign {
@@ -52,9 +52,10 @@ body {
 }
 
 .main_button_group{
-  position:absolute;
+  position: relative;
   display: inline-block;
   vertical-align: middle;
   top: 15px;
+
   /* left: 50px; */
 }

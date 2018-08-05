@@ -1,6 +1,6 @@
 .searchbar{
   color:black;
-  width: 275px;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -22,11 +22,3 @@
       width: 100%;
   }
 
-  /* .panel{
-      width: 50%;
-      height: 5%;
-  } */
-
-  /* .panel_heading{
-      background-color: aquamarine;
-  } */

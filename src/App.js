@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Jumbotron, Button, ButtonGroup, DropdownButton, MenuItem, Row, Col, PanelGroup, Modal, Glyphicon } from 'react-bootstrap';
-import './App.css';
+import './index.css';
 import'./pages/page.css';
 import List from './pages/list';
 import MissionName from './pages/missionnames.js';
@@ -161,9 +161,9 @@ class App extends Component {
 
                       <p></p>
 
-                    <ButtonGroup bsSize="large">
+                    <ButtonGroup bsSize="large" className="main_button_group">
                         <Button bsStyle="elegant" onClick={this.clearSearch}  value='name' bsSize="large">Name</Button>
-                        <Button bsStyle="elegant" onClick={this.updateTerm}  value='missionname' bsSize="large">Mission Names</Button>
+                        <Button bsStyle="elegant" onClick={this.clearSearch}  value='missionname' bsSize="large">Mission Names</Button>
                         <DropdownButton id="YOG" title="Year of Graduation" bsStyle="elegant" bsSize="large" onSelect={this.updateYOG}>
                           { 
                             Array.from(this.state.yog_data).map(function (data, i) {
