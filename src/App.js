@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button, ButtonGroup, DropdownButton, MenuItem, Row, Col, PanelGroup,  Pagination } from 'react-bootstrap';
+import { Grid, Jumbotron, Button, ButtonGroup, DropdownButton, MenuItem, Row, Col, PanelGroup, Pagination, Modal, Glyphicon } from 'react-bootstrap';
 import './App.css';
 import'./pages/page.css';
 import List from './pages/list';
-import YOG_TABS from './pages/yog_tabs';
+import MissionName from './pages/missionnames.js';
 import config from './config';
 import { load } from'./pages/loader';
 
@@ -16,10 +16,12 @@ class App extends Component {
       button: 'name',
       activeKey: '1',
       yog_data: [],
+      mN_data: [],
       error: null
     };
 
-    //this.handleYOG = this.handleYOG.bind(this);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.updateSearch = this.updateSearch.bind(this);
     this.updateTerm = this.updateTerm.bind(this);
@@ -64,12 +66,32 @@ class App extends Component {
         }
         this.setState({yog_data : temp_data.sort()})
 
+        // const previousName = [];
+        // const temp_name = [];
+        // for(var i = 0; i < people.length; i++){
+        //   if(previousName.includes(people[i].missionNameIfApplicable) || people[i].missionNameIfApplicable === undefined || people[i].missionNameIfApplicable === "" || people[i].missionNameIfApplicable === null){
+        //     i++;
+        //   } else {
+        //     temp_name.push(people[i].missionNameIfApplicable);
+        //     previousName.push(people[i].missionNameIfApplicable);
+        //   }
+        // }
+        // this.setState({mN_data : temp_name.sort()})
+        // console.log(this.state.mN_data);
+
 
       } else {
         this.setState({ error });
       }
     };
 
+    handleClose() {
+      this.setState({ show: false });
+    }
+    
+    handleShow() {
+      this.setState({ show: true });
+    }
 
   handleSelect(activeKey) {
    this.setState({ activeKey });
@@ -119,11 +141,30 @@ class App extends Component {
                 <Jumbotron className="welcome">
                   <Grid>
                     <h1>UMass Comedy League Alumni Database</h1>
-                    <p>
+                    <p className="here_1">
                       Here you can search through <i>almost</i> every alumni that has been through UCL and SVP
-                       <li></li>
-                      <small>(Student Valley Productions 1991 - 2013)</small>
                     </p>
+                      <p className="info">
+                      <Button bsStyle="link" onClick={this.handleShow} bsSize="large"><Glyphicon glyph="info-sign" /></Button>
+                        <Modal show={this.state.show} onHide={this.handleClose} >
+                          <Modal.Header closeButton>
+                            <Modal.Title bsClass="modal-title modal_center">Credits</Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body bsClass="modal-body modal_center">
+                            <h4><u>Reaching out to alumni and collecting data</u></h4>
+                            <p>John Bergin (Class of 17) and Ally Whitelaw (Class of 17)</p>
+                            <hr />
+                            <h4><u>Creating this app</u></h4>
+                            <p>Cameron Pavao (Class of 18)</p>
+                          </Modal.Body>
+                          <Modal.Footer>
+                            <Button onClick={this.handleClose}>Close</Button>
+                          </Modal.Footer>
+                        </Modal>
+                      </p>
+                      <p>
+                      <small>(Student Valley Productions 1991 - 2013)</small>
+                      </p>
 
                     <input type="text"
                       value = {search}
@@ -133,8 +174,9 @@ class App extends Component {
 
                       <p></p>
 
-                    <ButtonGroup bsSize="large" >
+                    <ButtonGroup bsSize="large">
                         <Button bsStyle="elegant" onClick={this.clearSearch}  value='name' bsSize="large">Name</Button>
+                        <Button bsStyle="elegant" onClick={this.updateTerm}  value='missionname' bsSize="large">Mission Names</Button>
                         <DropdownButton id="YOG" title="Year of Graduation" bsStyle="elegant" bsSize="large" onSelect={this.updateYOG}>
                           { 
                             Array.from(this.state.yog_data).map(function (data, i) {
@@ -157,22 +199,16 @@ class App extends Component {
                 <Grid>
                     <Row>
                       <Col xs={12} md={12}>
-                      <h3> Searching for: {(button === 'name') ? search : button}  </h3>
-                      {this.state.button === 'yog' && 
-                        <Pagination>
-                          {console.log(this.state.yog_data)}
-                          
-
-
-                        </Pagination>
-                      }
+                      <h3> Searching for: {(button === 'name' || button ==='missionname')  ? search : button}  </h3>
                       <PanelGroup
                       accordian="true"
                       id="main list"
                       activeKey={this.state.activeKey}
                       onSelect={this.handleSelect}
                       >
-                      <List data={this.state.data} search={this.state.search} button={this.state.button} state={this.state}/>
+                      {(button === 'missionname') ? <MissionName data={this.state.data} mN_data={this.state.mN_data} search={this.state.search} button={this.state.button} state={this.state} /> :
+                        <List data={this.state.data} search={this.state.search} button={this.state.button} state={this.state} />
+                      }
                       </PanelGroup>
                       </Col>
                   </Row>
