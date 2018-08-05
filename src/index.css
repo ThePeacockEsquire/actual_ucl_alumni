@@ -15,6 +15,17 @@ body {
 
 }
 
+.logo{
+  height: 25%;
+  width: 25%;
+  position: relative;
+
+}
+
+.icon{
+  size: 200%;
+}
+
 .modal_center{
   text-align: center;
 }
