@@ -8,7 +8,7 @@ export function load(callback) {
     window.gapi.client.sheets.spreadsheets.values
       .get({
         spreadsheetId: config.spreadsheetId,
-        range: "Sheet1!A2:F"
+        range: "Sheet1!A2:H"
       })
       .then(
         response => {
@@ -19,7 +19,8 @@ export function load(callback) {
             graduationDate: people[1],
             missionNameIfApplicable: people[3],
             whereAreTheyNow: people[4],
-            additionalInformation: people[5]
+            additionalInformation: people[5],
+            picLink: people[7]
           })) || [];
           callback({
             people
