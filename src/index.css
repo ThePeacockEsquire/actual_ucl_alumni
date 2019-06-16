@@ -7,6 +7,8 @@ body {
 
 .help{
   text-align: right;
+  margin: 10px;
+  padding: 10px;
 }
 
 .info{
@@ -42,7 +44,7 @@ body {
 .welcome{
   text-align: center;
   color: black !important;
-  background-color : #56C2B3 !important ;
+  background-color : #56C2B3 !important;
   font-family: 'Arvo', regular;
 }
 
@@ -58,4 +60,20 @@ body {
   top: 15px;
 
   /* left: 50px; */
+}
+
+#custom-btn-default {
+  background-color: black !important;
+}
+
+.panel-group {
+  margin-bottom: 20px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.centered {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
 }

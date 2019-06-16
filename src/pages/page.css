@@ -26,20 +26,20 @@
     margin: 5px;
     float: left;
     width: 250px;
+    height: 375px;
+    border-width: 5px;
+    border-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
 
   div.gallery img {
     position: relative;
-    float: left;
+    float: top;
     width:  250px;
     height: 250px;
   }
 
-  button {
-    opacity: 0%;
-  }
   div.overlay {
   position: relative;
   margin-top: 100px;
@@ -47,11 +47,11 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: black;
 }
 
   div.gallery:hover .overlay {
     opacity: 1;
+
   }
 
   div.text {
@@ -60,6 +60,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    width: 95%;
+    transform: translate(-50%, -85%);
     -ms-transform: translate(-50%, -50%);
+    background-color: none;
+  }
+
+  button {
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    padding: 0;
+    background-color: black;
   }

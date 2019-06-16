@@ -6,20 +6,25 @@ import {
   ButtonGroup,
   DropdownButton,
   MenuItem,
-  Row,
-  Col,
-  PanelGroup,
   Modal,
   Glyphicon
 } from "react-bootstrap";
 import "./index.css";
 import "./pages/page.css";
-import List from "./pages/list";
-import CardList from "./pages/CardList";
-import MissionName from "./pages/missionnames.js";
 import config from "./config";
 import { load } from "./pages/loader";
 import img from "./imgs/ucl_logo.png";
+
+import Results from './components/Results.js';
+import Loader from 'react-loader-spinner'
+
+const centered = {
+    margin: "auto",
+    padding: "10px",
+    textAlign: "center",
+}
+
+const color = 'black';
 
 class App extends Component {
   constructor() {
@@ -27,7 +32,7 @@ class App extends Component {
     this.state = {
       search: "",
       data: [],
-      button: "name",
+      button: "home",
       activeKey: "1",
       yog_data: [],
       mN_data: [],
@@ -67,8 +72,8 @@ class App extends Component {
     if (data) {
       const people = data.people;
       this.setState({
-				data: people
-			 });
+        data: people
+      });
       const previousDate = [];
       const temp_data = [];
       for (var i = 0; i < people.length; i++) {
@@ -137,7 +142,7 @@ class App extends Component {
   }
 
   render() {
-    const { search, button } = this.state;
+    const { search } = this.state;
     return (
       // <div className="body">
       <div>
@@ -186,24 +191,25 @@ class App extends Component {
               value={search}
               onChange={this.updateSearch}
               className="searchbar"
-              placeholder="Search by name or troupe"
+              placeholder={`Search by ${this.state.button}`}
             />
 
             <p />
 
-            <ButtonGroup bsSize="large" className="main_button_group">
+            <ButtonGroup className="main_button_group">
               <Button
                 bsStyle="default"
                 onClick={this.clearSearch}
-                value="name"
+                value="Name"
                 bsSize="large"
+                varient="secondary"
               >
                 Name
               </Button>
               <Button
                 bsStyle="default"
                 onClick={this.clearSearch}
-                value="missionname"
+                value="Mission Name"
                 bsSize="large"
               >
                 Mission Names
@@ -214,6 +220,7 @@ class App extends Component {
                 bsStyle="default"
                 bsSize="large"
                 onSelect={this.updateYOG}
+                value="Year of Graduation"
               >
                 {Array.from(this.state.yog_data).map(function(data, i) {
                   return (
@@ -253,59 +260,13 @@ class App extends Component {
                   OG
                 </MenuItem>
               </DropdownButton>
+              <Button onClick={this.clearSearch} value="Map" bsSize="large">
+                Where are they now?
+              </Button>
             </ButtonGroup>
           </Grid>
         </Jumbotron>
-              <Row>
-                <Col xs={5} md={8}>
-                  <h3>
-                    {" "}
-                    Searching for:{" "}
-                    {button === "name" || button === "missionname"
-                      ? search
-                      : button}{" "}
-                  </h3>
-                </Col>
-                <Col xs={7} md={4}>
-                  <p className="help">
-                    See anything that's not here or any wrong information?
-                  </p>
-                  <div className="help">
-                    {" "}
-                    Let me know here
-                    <Button
-                      bsSize="large"
-                      bsStyle="link"
-                      href="https://goo.gl/forms/UaTCL0jm1VaqQgmV2"
-                    >
-                      <i className="fa fa-envelope-o" aria-hidden="true" />
-                    </Button>
-                  </div>
-                </Col>
-              </Row>
-              {button === "missionname" ? (
-                <PanelGroup
-                  accordian="true"
-                  id="main list"
-                  activeKey={this.state.activeKey}
-                  onSelect={this.handleSelect}
-                >
-                  <MissionName
-                    data={this.state.data}
-                    mN_data={this.state.mN_data}
-                    search={this.state.search}
-                    button={this.state.button}
-                    state={this.state}
-                  />
-                </PanelGroup>
-              ) : (
-                <CardList
-                  data={this.state.data}
-                  search={this.state.search}
-                  button={this.state.button}
-                  state={this.state}
-                />
-              )}
+        {this.state.button === "home" ? <div>Select Source</div> : this.state.data.length === 0  ? <Loader type="Hearts" color="white" height="100" width="100" style="centered"/> : <Results state={this.state}/>}
       </div>
     );
   }

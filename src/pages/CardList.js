@@ -52,20 +52,32 @@ class BioModal extends Component {
         {...this.props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
-        centered
       >
         <Modal.Body>
-          <h4>{this.props.name}</h4>
+          <h4>{this.props.data.name}</h4>
+						<img name={this.props.data.name}
+									src={
+										this.props.data.picLink !== "" && this.props.data.picLink !== undefined
+											? this.props.data.picLink
+											: unknown_pic
+									}
+									alt={this.props.data.additionalInformation}
+									style={{width: 300, borderWidth: 1}}
+								/>
 						<ul className="list-style-type:none;">
-						  <li>Year of graduation was {this.props.graduationDate}</li>
-						  <li>Performed on {this.props.troupe}</li>
-							if(this.props.missionNameIfApplicable !== "" || this.props.missionNameIfApplicable !== null){
-								<li>Mission name was {this.props.missionNameIfApplicable}</li>
+						  <li>Year of graduation was {this.props.data.graduationDate}</li>
+						  <li>Performed on {this.props.data.troupe}</li>
+							{this.props.data.missionNameIfApplicable !== "" ?
+								<li>Mission name was {this.props.data.missionNameIfApplicable}</li>
+								: ""
 							}
-						  <li>They are currently in {this.props.whereAreTheyNow}!</li>
-							<li>More about them:
-								{this.props.additionalInformation}
+						  <li>They are currently in {this.props.data.whereAreTheyNow}!</li>
+							{this.props.data.additionalInformation !== "" ?
+								<li>More about them: 
+								{this.props.data.additionalInformation}
 							</li>
+								: ""
+							}
 						</ul>
         </Modal.Body>
         <Modal.Footer>
@@ -79,35 +91,25 @@ class BioModal extends Component {
 
 
 class CardList extends Component {
-	constructor() {
-		super();
-		this.state = {
-			modalStatus: false,
-			data: null
-		};
-		this.handleClose = this.handleClose.bind(this);
-		this.handleShow = this.handleShow.bind(this);
+	state = {
+		modalStatus: false,
+		data: ""
 	}
 
-
-	 handleClose() {
-		console.log(this.modalStatus);
+	 handleClose = () => {
 		this.setState(
 			{
 				modalStatus: false,
-				data: null
+				data: ""
 			}
 		);
 	};
 
-	 handleShow(e) {
-		console.log(this.modalStatus);
-		this.setState(
-			{
-				modalStatus: true,
-				data: e.value
-			}
-		);
+	 handleShow = (data) => {
+		this.setState({
+			modalStatus: true,
+			data: data
+		});
 	};
 
   render() {
@@ -117,19 +119,20 @@ class CardList extends Component {
 			<BioModal
 				show={modalStatus}
 				onHide={this.handleClose}
-				data={this.data}
+				data={this.state.data}
 			/>
 			{
 
-				Array.from(this.props.data)
+			Array.from(this.props.data)
       .filter(searchingFor(this.props.state))
-      .map(function(data, i) {
+      .map((data, i) => {
+		  console.log(data);
         return (
-					<div>
-						<div className="gallery" key={i}>
+					<div key={i} className="gallery">
+						<div >
 							<button
-								onClick={this.handleShow}
-								defaultValue={this.data}
+								onClick={() => {this.handleShow.call(this, data)}}
+								 defaultValue={this.data}
 								>
 								<img name={data.name}
 									src={
@@ -139,13 +142,13 @@ class CardList extends Component {
 									}
 									alt={data.additionalInformation}
 								/>
-						</button>
 							<div className="overlay">
 								<div className="text">
 									<h1>{data.name}</h1>
 									<h5>{data.graduationDate}</h5>
 								</div>
 							</div>
+							</button>
 						</div>
 					</div>
         );

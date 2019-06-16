@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Panel, Col, Row, Grid, PanelGroup } from 'react-bootstrap';
+import unknown_pic from "../imgs/unknown_pic.png";
+
 
 function searchingFor(props){
   return function(x){
@@ -46,13 +48,12 @@ class List extends Component {
                       <Col xs={4}>
                         {(data.picLink !== "" && data.picLink !== undefined) ?
                           <Row>
-                            <h1></h1>
-                            <img src={data.picLink} alt="Profile Pic" style={{width:300, height:300}} />
+                            {/* <img src={data.picLink} alt="Profile Pic" style={{width:300, height:300}} /> */}
+                            <img src={unknown_pic} alt="Profile Pic" style={{width:300, height:300, filter: 'drop-shadow(8px 8px 10px black)'}} />
                           </Row>
                           :
                           <Row>
-                            <h1></h1>
-                            <img src="http://chittagongit.com//images/default-user-icon/default-user-icon-8.jpg" alt="Profile Pic" style={{width:300, height:300}} />
+                            <img src={unknown_pic} alt="Profile Pic" style={{width:300, height:300, filter: 'drop-shadow(8px 8px 10px black)'}} />
                           </Row>
                         }
                       </Col>

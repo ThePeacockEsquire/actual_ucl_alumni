@@ -1,8 +1,5 @@
 import config from "../config";
-/**
- * Load the cars from the spreadsheet
- * Get the right values from it and assign.
- */
+
 export function load(callback) {
   window.gapi.client.load("sheets", "v4", () => {
     window.gapi.client.sheets.spreadsheets.values
@@ -22,9 +19,11 @@ export function load(callback) {
             additionalInformation: people[5],
             picLink: people[7]
           })) || [];
-          callback({
-            people
-          });
+          setTimeout(() => {
+            callback({
+              people
+            });
+          }, 2000)
         },
         response => {
           callback(false, response.result.error);
